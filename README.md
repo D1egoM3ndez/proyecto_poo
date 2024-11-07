@@ -1,5 +1,4 @@
 # proyecto_poo
-Descripción
 Este proyecto es una simulación básica de batalla Pokémon en C++ que permite al usuario crear, entrenar y utilizar Pokémon en batallas, donde puede elegir los ataques. Es un ejercicio de programación orientada a objetos que emplea conceptos como clases, encapsulamiento y métodos para simular las interacciones y mecánicas básicas del universo Pokémon.
 
 Características
