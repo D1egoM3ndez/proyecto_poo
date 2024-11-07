@@ -6,7 +6,7 @@ Clases Base:
 
 Pokemon: Define atributos básicos del Pokémon, como nombre, nivel, vida y tipo. Permite entrenarlo para subir de nivel.
 
-Entrenador: Representa a un entrenador con atributos como nombre, ciudad de origen y tipo preferido. Puede viajar a diferentes ciudades y cambiar de tipo.
+Entrenador: Representa a un entrenador con atributos como nombre, ciudad de origen y tipo preferido.
 
 Ataque: Contiene los atributos de un ataque (nombre, poder, precisión y tipo) y métodos para simular el uso del ataque y restaurar su precisión.
 
