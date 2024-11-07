@@ -1,24 +1,10 @@
 # proyecto_poo
 Este proyecto es una simulación básica de batalla Pokémon en C++ que permite al usuario crear, entrenar y utilizar Pokémon en batallas, donde puede elegir los ataques. Es un ejercicio de programación orientada a objetos que emplea conceptos como clases, encapsulamiento y métodos para simular las interacciones y mecánicas básicas del universo Pokémon.
 
-Características
-Clases Base:
+La función final del proyecto es simular una experiencia de batalla Pokémon interactiva donde el usuario pueda:
 
-Pokemon: Define atributos básicos del Pokémon, como nombre, nivel, vida y tipo. Permite entrenarlo para subir de nivel.
+Crear y gestionar Pokémon: El usuario puede crear Pokémon, asignarles atributos (nombre, nivel, vida, tipo) y entrenarlos para aumentar su nivel.
 
-Entrenador: Representa a un entrenador con atributos como nombre, ciudad de origen y tipo preferido.
+Seleccionar ataques: Durante las batallas, el usuario puede elegir los ataques de su Pokémon, los cuales tienen atributos como poder y precisión, para luchar contra un oponente.
 
-Ataque: Contiene los atributos de un ataque (nombre, poder, precisión y tipo) y métodos para simular el uso del ataque y restaurar su precisión.
-
-Funciones Principales:
-
-Entrenar Pokémon: El entrenador puede entrenar a sus Pokémon, aumentando su nivel y poder.
-
-Viajar: El entrenador puede cambiar de ciudad, representando su exploración en el mundo.
-
-Batalla Pokémon: El usuario puede seleccionar ataques en un combate por turnos contra otro Pokémon.
-
-Selección de Ataques: El usuario elige los ataques disponibles para enfrentar al oponente y reduce su vida hasta vencerlo.
-
-Batalla Interactiva: Los Pokémon realizan ataques por turnos, y el usuario selecciona los ataques de su Pokémon para reducir la vida del oponente.
-La precisión del ataque puede reducirse con cada uso, simulando desgaste, y puede ser restaurada a su valor inicial.
+Simular la batalla: La batalla se desarrolla por turnos donde el usuario y el oponente (controlado por el programa) eligen ataques. La vida de los Pokémon disminuye con cada ataque hasta que uno es derrotado.
