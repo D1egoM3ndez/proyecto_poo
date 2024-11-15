@@ -7,7 +7,7 @@ Este proyecto es una simulación básica de batalla Pokémon en C++ que permite 
 
 La función final del proyecto es simular una experiencia de batalla Pokémon interactiva donde el usuario pueda:
 
-Crear y gestionar Pokémon: El usuario puede crear Pokémon, asignarles atributos (nombre, nivel, vida, tipo) y entrenarlos para aumentar su nivel.
+Crear y gestionar Pokémon: El usuario puede crear Pokémon, asignarles atributos (nombre, nivel, vida) y entrenarlos para aumentar su nivel.
 
 Seleccionar ataques: Durante las batallas, el usuario puede elegir los ataques de su Pokémon, los cuales tienen atributos como poder y precisión, para luchar contra un oponente.
 
