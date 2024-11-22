@@ -16,4 +16,4 @@ Simular la batalla: La batalla se desarrolla por turnos donde el usuario y el op
 # Consideraciones
 
 Por el momento el programa corre en la consola y esta hecho con c++ standar.
-El programa se puede compilar como g++ -o poo proyecto_poo.cpp
+El programa se puede compilar como g++ -o final proyecto_final.cpp
