@@ -11,7 +11,7 @@ Gestionar Pokémon: El usuario puede escoger Pokemon de una lista predilecta a l
 
 Seleccionar ataques: Durante las batallas, el usuario puede elegir los ataques de su Pokémon, los cuales tienen atributos como poder y precisión, para luchar contra un oponente.
 
-Simular la batalla: La batalla se desarrolla por turnos donde el usuario y el oponente (controlado por el programa) eligen ataques. La vida de los Pokémon disminuye con cada ataque hasta que uno es derrotado.
+Simular la batalla: La batalla se desarrolla por turnos donde el usuario y el oponente (controlado por el programa) eligen ataques. La vida de los Pokémon disminuye con cada ataque hasta que uno es derrotado. El primero en atacar se hara de manera random internamente.
 
 # Consideraciones
 
