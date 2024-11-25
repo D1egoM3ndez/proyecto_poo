@@ -130,6 +130,7 @@ int main() {
     Tipo hielo("Hielo");
     Tipo bicho("Bicho");
     Tipo volador("Volador");
+    Tipo veneno("Veneno");
 
     fuego.agregar_ventaja("Planta");
     fuego.agregar_ventaja("Bicho");
@@ -178,6 +179,10 @@ int main() {
     volador.agregar_debilidad("Eléctrico");
     volador.agregar_debilidad("Hielo");
 
+    veneno.agregar_ventaja("Planta");
+
+    veneno.agregar_debilidad("Tierra");
+
     // Creación de Pokémon
     Pokemon venusaur("Venusaur", "Ruta 2", 36, 150.0, planta);
     venusaur.agregar_ataq(Ataque ("Hoja Afilada", 60.0, 100, planta));
@@ -224,10 +229,10 @@ int main() {
     pidgeot.agregar_ataq(Ataque ("Aire Afilado", 60.0, 90, volador));
     pidgeot.agregar_ataq(Ataque ("Ataque Ala", 60.0, 80, volador));
 
-    Pokemon nidoking("Nidoking", "Ruta 7", 35, 180.0, tierra);
-    nidoking.agregar_ataq(Ataque ("Bofeton Lodo", 60.0, 90, tierra));
-    nidoking.agregar_ataq(Ataque ("Fuerza Equina", 70.0, 75, tierra));
-    nidoking.agregar_ataq(Ataque ("Terratemblor", 90.0, 50, tierra));
+    Pokemon nidoking("Nidoking", "Ruta 7", 35, 180.0, veneno);
+    nidoking.agregar_ataq(Ataque ("Toxico", 60.0, 90, veneno));
+    nidoking.agregar_ataq(Ataque ("Bomba Acida", 70.0, 75, veneno));
+    nidoking.agregar_ataq(Ataque ("Cola Veneno", 90.0, 50, veneno));
 
     Pokemon persian("Persian", "Calle Victoria", 36, 150.0, normal);
     persian.agregar_ataq(Ataque ("Amago", 60.0, 70, normal));
